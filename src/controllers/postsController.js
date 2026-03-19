@@ -29,7 +29,7 @@ export async function listarPosts (req, res){
  export async function uploadImagem(req, res) { 
   const novoPost = { 
     descricao:"",  
-    imgUrl:req.file.originalmente, 
+    imgUrl:req.file.originalname, 
     alt:"" 
   
 }; 
